@@ -56,6 +56,8 @@ let GtagsCscope_Auto_Load = 1
 let GtagsCscope_Auto_Map = 1
 let GtagsCscope_Quiet = 1
 
+au BufWritePost *.c,*.cpp,*.h silent! !gtags -vq &
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Mapping                                                     "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
