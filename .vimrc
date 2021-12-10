@@ -185,6 +185,7 @@ let g:tagbar_width = 40
 " Color Scheme                                                "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:solarized_termcolors=256
+let g:solarized_termtrans=1
 let g:solarized_contrast="high"
 colorscheme solarized
 
